@@ -1,0 +1,355 @@
+\documentclass[11pt,A4,english]{article}
+
+\usepackage[utf8]{inputenc} %accessible for any machine
+\usepackage[USenglish]{isodate} %default language
+\usepackage{fancyhdr} %header footer
+\usepackage[numbers]{natbib} %citation
+\usepackage{paracol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[a4paper,bindingoffset=0.2in,%
+left=.5in,right=.5in,top=1in,bottom=0.5in,%
+footskip=.25in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{fontawesome}
+\usepackage{scrextend}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage[svgnames]{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\pagestyle{empty}
+\definecolor{resume1}{RGB}{35, 63, 141}
+
+\titleformat{\section}
+{\Large}
+{}
+{0em} %space between left and section
+{\bfseries\textcolor{resume1}}[{\titlerule[1pt]}]
+
+\titleformat{\subsection}
+{\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{}
+{\hspace{0.25in}\tiny$\bullet$\hspace{0.75em}}
+{0em}
+{\bfseries}[:\hspace{.2cm} ]
+
+\titlespacing{\section}
+{0em}{0em}{.75em}
+
+\titlespacing{\subsection}
+{-2em}{0em}{.25em}
+
+\titlespacing{\subsubsection}
+{-2.5em}{.25em}{0em}
+
+\renewcommand{\familydefault}{phv}
+\renewcommand{\maketitle}{
+
+\vspace{.3cm}
+
+{\Huge\bfseries
+\theauthor} \\
+
+\vspace{.2cm}
+
+\hspace{2.6cm} {\Large Final Year University Student | Seeking Internship Placement}\\
+\vspace{.2cm}
+
+}
+
+\newenvironment{list2}{
+  \begin{list}{\tiny$\bullet$}{%
+      \setlength{\itemsep}{-1em}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{.25in}}}{\end{list}}
+
+\begin{document}
+
+
+\hfill
+
+\title{R\`esum\'e}
+\author{TANG HAN XIONG}
+
+\begin{center} % or flushleft/flushright
+\begin{tabular}{@{}l@{}}
+\hspace{2.5cm} \maketitle 
+
+\end{tabular}
+\end{center}
+
+\vspace{-2em}
+
+\centerline{\rule{30cm}{1pt}}
+
+\vspace{.5em}
+
+\columnratio{0.33,0.66}
+\begin{paracol}{2}
+%\setlength{\columnseprule}{.75pt}
+\setlength{\columnsep}{2em}
+
+% Left Column --------------------------------------------------------------------------------------
+
+\begin{leftcolumn}
+
+    \section{EDUCATION}
+    
+        \begin{addmargin}[0em]{0em}
+
+            {\bfseries Mechanical Engineering (BEng)} \\ \vspace{-.8cm} \\
+    
+            \hspace{-14pt} \faCalendar \hspace{6pt} May 2018 -- Present \\ \vspace{-.9cm} \\
+    
+            \hspace{2pt} \ (Expected May 2022) \\ \vspace{-.7cm} \\
+    
+            \hspace{-15pt} \faGraduationCap \hspace{2pt} UCSI University, KL \\ \vspace{-.7cm} \\
+    
+            \hspace{-13pt} \faTrophy \hspace{5pt} CGPA: 3.83/4.0 \\
+    
+            \hspace{-20pt} {\bfseries STPM } \\ \vspace{-.8cm} \\
+    
+            \hspace{-14pt} \faCalendar \hspace{6pt} May 2016 -- Dec 2017 \\ \vspace{-.7cm} \\
+    
+            \hspace{-15pt} \faGraduationCap \hspace{2pt} SMK Methodist, KL \\ \vspace{-.7cm} \\
+    
+            \hspace{-13pt} \faPencil \hspace{5pt} MUET English Test: Band 5 \\ 
+
+        \end{addmargin}
+
+    \vspace{0cm}
+
+    \section{CONTACT DETAILS}
+
+    \vspace{-.25em}
+
+        \begin{addmargin}[0em]{0em}
+
+            \vspace{2pt}
+
+            \hspace{4pt} \faPhone \hspace{6pt} +60\ 14-259 6187 
+
+            \vspace{4pt}
+
+            \hspace{-12pt} \faMapMarker \hspace{8pt} Cheras, Malaysia 
+
+            \vspace{4pt}
+
+            \hspace{-14pt} \faEnvelope \hspace{6pt} \bf{\href{mailto:han\_xiong@outlook.com}{han\_xiong@outlook.com} } 
+
+            \vspace{4pt}
+
+            \hspace{-13.25pt} \faLinkedinSquare \hspace{6pt} \href{https://www.linkedin.com/in/thranx98}{thranx98}
+            
+            \vspace{4pt}
+
+            \hspace{-13.5pt} \faGithubAlt \hspace{5.5pt} \href{https://github.com/thranx98}{thranx98}
+            \\
+
+        \end{addmargin}
+
+    \vspace{0cm}
+
+    \section{KEY SKILLS}
+
+    \vspace{-.25em}
+
+        \begin{addmargin}[2em]{1em}
+
+            \subsection{Softwares}
+                \vspace{.25em}
+                \begin{addmargin}[-3em]{.5em}
+                    \begin{itemize}
+                    \justifying
+                    \vspace{-.1cm}
+                    \item {\bfseries Proficient in:} \ SolidWorks, \\
+                    AutoCAD, Ansys (Static \\
+                    Structural \& Fluent), MATLAB, Simulink
+                    
+                    \vspace{-.1cm}
+                    \item {\bfseries Familiar with:} Linux, C++, Python, Arduino, \LaTeX
+                    
+                    \end{itemize}
+                \end{addmargin}
+        
+            \vspace{.5em}
+        
+            \subsection{Languages}
+                \vspace{.25em}
+                \begin{addmargin}[-3em]{1em}
+                    \begin{itemize}
+                    \justifying
+                    \item {\bfseries Can Speak:} English, Malay, Mandarin, Cantonese, Hakka
+                    \vspace{-.6cm}
+                    \item {\bfseries Can Write:} English, Malay, Chinese
+                    \end{itemize}
+                \end{addmargin}
+        
+        \end{addmargin}
+        
+    \vspace{.5cm}
+    
+    \section{REGISTRATIONS}
+
+        \begin{addmargin}[2em]{0em}
+                \begin{addmargin}[-3em]{1em}
+                    \begin{itemize}
+                    \justifying
+                        %\item The Institution Of Engineers, Malaysia (Student)
+                        %\vspace{-.25cm}
+                        \item CIDB Card
+                        \vspace{-.25cm}
+                        \item Driving License
+                    \end{itemize}
+                \end{addmargin}
+        
+        \end{addmargin}
+    
+\end{leftcolumn}
+
+% Right Column --------------------------------------------------------------------------------------
+
+\begin{rightcolumn}
+
+    \section{WORK EXPERIENCES} 
+     
+        \begin{addmargin}[0em]{0em}
+        
+            {\bfseries Engineering Intern} \hfill{Sep 2020 -- Dec 2020}\\
+            {\textit{PTL Technology Sdn Bhd}} \hfill \textit{Subang jaya, Selangor}\\
+            \vspace{-.3cm}
+            \begin{addmargin}[-.5em]{0em}
+                \begin{itemize}
+                \justifying
+                \item Initiated, designed and edited an overall project expense tracking template according to Health Technical Memorandum 02-01
+                \vspace{-.2cm}
+                \item Developed MEP project progress tracker and BQ for 10+ hospitals; liaised with site supervisor for weekly project updates
+                \vspace{-.2cm}
+                \item Reduced pipeline length measurement time in AutoCAD by implementing a custom LISP command 
+                \vspace{-.2cm}
+                \item Created and amended specification drawings in AutoCAD; converted existing hand-drawn assembly diagrams to DWG format
+                
+                \vspace{-.2cm}
+                \item Composed incident reports for recent projects on an ad hoc basis
+                
+                \vspace{-.2cm}
+                \item Conducted several site visits to ongoing hospital projects for pro- \\gress inspection, medical equipment briefing and misc. tasks
+                \vspace{-.2cm}
+                %\item Experience & Responsibilities
+                %\vspace{-.25cm}
+                %\item Key Achievements
+                %\vspace{-.25cm}
+            %  \item 
+            %  \vspace{-.25cm}
+                \end{itemize}
+            \end{addmargin}
+        \end{addmargin}
+        
+        \vspace{.4cm}
+        
+        \begin{addmargin}[0em]{0em}
+        {\bfseries Freelance Digital Marketing} \hfill{Nov 2018 -- Jun 2019}\\
+            {\textit{Raysio Services (M) Sdn Bhd}} \hfill \textit{Kuala Lumpur, Malaysia}\\
+            \vspace{-.3cm}
+            \begin{addmargin}[-.5em]{0em}
+                \begin{itemize}
+                \justifying
+                \item Launched, managed and optimized client's WordPress website and social media; designed graphical assets for contents
+                \vspace{-.2cm}
+                \item Experimented with plugins and tweaking layouts to improve website performance; website speed tested using PageSpeed Insights
+                
+                \vspace{-.2cm}
+                \item Identified 300+ companies that require accounting/payroll services
+                
+                \vspace{-.2cm}
+            %  \item 
+            %  \vspace{-.25cm}
+                \end{itemize}
+            \end{addmargin}
+        \end{addmargin}
+    \vspace{1.5em}
+    \vspace{0cm}
+    \section{CAMPUS INVOLVEMENTS}
+
+        % Six-time Dean's List recipient for maintaining at least a GPA of 3.5 every long semester
+
+        \begin{addmargin}[0em]{0em}
+            {\bfseries Reverse Vending Machine} {\bfseries\textbar} Initiative Z \hfill \textit{Sep 2020 - Present}\\
+            \vspace{-.3cm}
+            \begin{addmargin}[-.5em]{0em}
+                \begin{itemize}
+                    \justifying
+                    \item Designed and drafted the intake entrance using SolidWorks
+                    \vspace{-.2cm}
+                    \item Performed evaluation of suppliers for required components
+                    \vspace{-.2cm}
+                    \item Conducted project cost analysis to meet budget requirement
+                    \vspace{-.2cm}
+                %  \item 
+                %  \vspace{-.25cm}
+                \end{itemize}
+            \end{addmargin}
+        \end{addmargin}
+        
+        \vspace{1em}
+        
+        \begin{addmargin}[0em]{0em}
+            {\bfseries Publicity Team} {\bfseries\textbar} Initiative Z \hfill \textit{May 2020 - Sep 2020}\\
+            \vspace{-.3cm}
+            
+            \begin{addmargin}[-.5em]{0em}
+                \begin{itemize}
+                    \justifying
+                    \item Produced graphic illustrations for social media postings
+                    \vspace{-.2cm}
+                    \item Monitored latest zero waste topics; posted in social media according to content category schedule
+                    
+                    \vspace{-.2cm}
+                    \item Facilitated table topics discussion in zero waste awareness event
+                    \vspace{-.2cm}
+                %  \item 
+                %  \vspace{-.25cm}
+                \end{itemize}
+            \end{addmargin}
+        \end{addmargin}
+
+        \vspace{0em}
+
+        \begin{addmargin}[0em]{0em}
+            {\bfseries PR Design} 
+            {\bfseries\textbar}\hspace{1pt} Deep Roots \hfill \vspace{.5em} \textit{May 2019 - May 2020}
+            \begin{addmargin}[-.5em]{0em}
+                \begin{itemize}
+                    \justifying
+                    \item Interviewed Orang Asli's family household for their shelter condition in a pathfinding mission
+                    \vspace{-.2cm}
+                    \item Designed and modelled miniature Orang Asli house for booth showcase in Tan Sri Dr Omar Harmony Award 2019
+                    \vspace{-.2cm}
+                    \item Lead planner for Orang Asli Awareness Booth at Lembaga Hasil Dalam Negeri, Jalan Duta
+                    \vspace{-.2cm}
+                    \item Identified and contacted 100+ companies to fundraise EPIC Home Build for Orang Asli family
+                    \vspace{-.2cm}
+                %  \item 
+                %  \vspace{-.25cm}
+                \end{itemize}
+            \end{addmargin}
+        \end{addmargin}
+
+\end{rightcolumn}
+\end{paracol}
+\end{document}
